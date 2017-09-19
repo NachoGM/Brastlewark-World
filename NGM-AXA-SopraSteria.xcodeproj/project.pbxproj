@@ -15,6 +15,11 @@
 		6EDED2671F38B36400ACB9D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDED2651F38B36400ACB9D6 /* LaunchScreen.storyboard */; };
 		6EDED2721F38B36400ACB9D6 /* NGM_AXA_SopraSteriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDED2711F38B36400ACB9D6 /* NGM_AXA_SopraSteriaTests.swift */; };
 		6EDED27D1F38B36400ACB9D6 /* NGM_AXA_SopraSteriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDED27C1F38B36400ACB9D6 /* NGM_AXA_SopraSteriaUITests.swift */; };
+		6EDED28B1F38B42100ACB9D6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDED28A1F38B42100ACB9D6 /* CollectionViewCell.swift */; };
+		6EDED2921F38F35C00ACB9D6 /* DetailPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDED2911F38F35C00ACB9D6 /* DetailPlayerVC.swift */; };
+		9423615F3C5761B5A2E315AF /* Pods_NGM_AXA_SopraSteria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534F5A24AEF57B0F0E2C99AE /* Pods_NGM_AXA_SopraSteria.framework */; };
+		BBA1685F56968EAE81249A61 /* Pods_NGM_AXA_SopraSteriaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE01A102469AC404B4B297A4 /* Pods_NGM_AXA_SopraSteriaTests.framework */; };
+		DC864CF170FCAC49CF0B08FF /* Pods_NGM_AXA_SopraSteriaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD79079AB9B73429E57709D /* Pods_NGM_AXA_SopraSteriaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C75A7C40317BBA0A2694010 /* Pods-NGM-AXA-SopraSteriaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGM-AXA-SopraSteriaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NGM-AXA-SopraSteriaUITests/Pods-NGM-AXA-SopraSteriaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		11E750002DFE9789170A3862 /* Pods-NGM-AXA-SopraSteriaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGM-AXA-SopraSteriaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NGM-AXA-SopraSteriaUITests/Pods-NGM-AXA-SopraSteriaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		17215B592F58CED1CED329D5 /* Pods-NGM-AXA-SopraSteria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGM-AXA-SopraSteria.release.xcconfig"; path = "Pods/Target Support Files/Pods-NGM-AXA-SopraSteria/Pods-NGM-AXA-SopraSteria.release.xcconfig"; sourceTree = "<group>"; };
+		354708F4CF233D426BA19BC6 /* Pods-NGM-AXA-SopraSteriaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGM-AXA-SopraSteriaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NGM-AXA-SopraSteriaTests/Pods-NGM-AXA-SopraSteriaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CD79079AB9B73429E57709D /* Pods_NGM_AXA_SopraSteriaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NGM_AXA_SopraSteriaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		534F5A24AEF57B0F0E2C99AE /* Pods_NGM_AXA_SopraSteria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NGM_AXA_SopraSteria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDED2561F38B36400ACB9D6 /* NGM-AXA-SopraSteria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NGM-AXA-SopraSteria.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDED2591F38B36400ACB9D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EDED25B1F38B36400ACB9D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		6EDED2781F38B36400ACB9D6 /* NGM-AXA-SopraSteriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NGM-AXA-SopraSteriaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDED27C1F38B36400ACB9D6 /* NGM_AXA_SopraSteriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NGM_AXA_SopraSteriaUITests.swift; sourceTree = "<group>"; };
 		6EDED27E1F38B36400ACB9D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EDED28A1F38B42100ACB9D6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		6EDED2911F38F35C00ACB9D6 /* DetailPlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPlayerVC.swift; sourceTree = "<group>"; };
+		8B2AAD4B91E85315D059BC25 /* Pods-NGM-AXA-SopraSteria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGM-AXA-SopraSteria.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NGM-AXA-SopraSteria/Pods-NGM-AXA-SopraSteria.debug.xcconfig"; sourceTree = "<group>"; };
+		AECC3EDFFFA0EE956625340D /* Pods-NGM-AXA-SopraSteriaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGM-AXA-SopraSteriaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NGM-AXA-SopraSteriaTests/Pods-NGM-AXA-SopraSteriaTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE01A102469AC404B4B297A4 /* Pods_NGM_AXA_SopraSteriaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NGM_AXA_SopraSteriaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9423615F3C5761B5A2E315AF /* Pods_NGM_AXA_SopraSteria.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA1685F56968EAE81249A61 /* Pods_NGM_AXA_SopraSteriaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC864CF170FCAC49CF0B08FF /* Pods_NGM_AXA_SopraSteriaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BDA4848CAC65B319F5B8847 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B2AAD4B91E85315D059BC25 /* Pods-NGM-AXA-SopraSteria.debug.xcconfig */,
+				17215B592F58CED1CED329D5 /* Pods-NGM-AXA-SopraSteria.release.xcconfig */,
+				354708F4CF233D426BA19BC6 /* Pods-NGM-AXA-SopraSteriaTests.debug.xcconfig */,
+				AECC3EDFFFA0EE956625340D /* Pods-NGM-AXA-SopraSteriaTests.release.xcconfig */,
+				11E750002DFE9789170A3862 /* Pods-NGM-AXA-SopraSteriaUITests.debug.xcconfig */,
+				0C75A7C40317BBA0A2694010 /* Pods-NGM-AXA-SopraSteriaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6EDED24D1F38B36400ACB9D6 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +115,8 @@
 				6EDED2701F38B36400ACB9D6 /* NGM-AXA-SopraSteriaTests */,
 				6EDED27B1F38B36400ACB9D6 /* NGM-AXA-SopraSteriaUITests */,
 				6EDED2571F38B36400ACB9D6 /* Products */,
+				0BDA4848CAC65B319F5B8847 /* Pods */,
+				C45DD5875CB169DDEFE24DDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +134,9 @@
 			isa = PBXGroup;
 			children = (
 				6EDED2591F38B36400ACB9D6 /* AppDelegate.swift */,
-				6EDED25B1F38B36400ACB9D6 /* ViewController.swift */,
-				6EDED25D1F38B36400ACB9D6 /* Main.storyboard */,
-				6EDED2631F38B36400ACB9D6 /* Assets.xcassets */,
-				6EDED2651F38B36400ACB9D6 /* LaunchScreen.storyboard */,
-				6EDED2681F38B36400ACB9D6 /* Info.plist */,
-				6EDED2601F38B36400ACB9D6 /* NGM_AXA_SopraSteria.xcdatamodeld */,
+				6EDED28F1F38BAA800ACB9D6 /* Views */,
+				6EDED28E1F38BAA000ACB9D6 /* Controller */,
+				6EDED2901F38BABA00ACB9D6 /* Supporting Files */,
 			);
 			path = "NGM-AXA-SopraSteria";
 			sourceTree = "<group>";
@@ -128,6 +159,45 @@
 			path = "NGM-AXA-SopraSteriaUITests";
 			sourceTree = "<group>";
 		};
+		6EDED28E1F38BAA000ACB9D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6EDED25B1F38B36400ACB9D6 /* ViewController.swift */,
+				6EDED2911F38F35C00ACB9D6 /* DetailPlayerVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6EDED28F1F38BAA800ACB9D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6EDED28A1F38B42100ACB9D6 /* CollectionViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6EDED2901F38BABA00ACB9D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EDED25D1F38B36400ACB9D6 /* Main.storyboard */,
+				6EDED2631F38B36400ACB9D6 /* Assets.xcassets */,
+				6EDED2651F38B36400ACB9D6 /* LaunchScreen.storyboard */,
+				6EDED2681F38B36400ACB9D6 /* Info.plist */,
+				6EDED2601F38B36400ACB9D6 /* NGM_AXA_SopraSteria.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C45DD5875CB169DDEFE24DDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				534F5A24AEF57B0F0E2C99AE /* Pods_NGM_AXA_SopraSteria.framework */,
+				FE01A102469AC404B4B297A4 /* Pods_NGM_AXA_SopraSteriaTests.framework */,
+				3CD79079AB9B73429E57709D /* Pods_NGM_AXA_SopraSteriaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EDED2811F38B36400ACB9D6 /* Build configuration list for PBXNativeTarget "NGM-AXA-SopraSteria" */;
 			buildPhases = (
+				FBD4592072EEC5B3370BD816 /* [CP] Check Pods Manifest.lock */,
 				6EDED2521F38B36400ACB9D6 /* Sources */,
 				6EDED2531F38B36400ACB9D6 /* Frameworks */,
 				6EDED2541F38B36400ACB9D6 /* Resources */,
+				E1979BD2FA7E7CB2EE8CC132 /* [CP] Embed Pods Frameworks */,
+				873A0026D20065E4746EE4C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EDED2841F38B36400ACB9D6 /* Build configuration list for PBXNativeTarget "NGM-AXA-SopraSteriaTests" */;
 			buildPhases = (
+				9E665A07B57C1522AF15ECBF /* [CP] Check Pods Manifest.lock */,
 				6EDED2691F38B36400ACB9D6 /* Sources */,
 				6EDED26A1F38B36400ACB9D6 /* Frameworks */,
 				6EDED26B1F38B36400ACB9D6 /* Resources */,
+				4EA9741D3EB5BD3FA2342E10 /* [CP] Embed Pods Frameworks */,
+				21CF09FE0BACA5C08401B85A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6EDED2871F38B36400ACB9D6 /* Build configuration list for PBXNativeTarget "NGM-AXA-SopraSteriaUITests" */;
 			buildPhases = (
+				7450D01B0C5333D4AFBE0162 /* [CP] Check Pods Manifest.lock */,
 				6EDED2741F38B36400ACB9D6 /* Sources */,
 				6EDED2751F38B36400ACB9D6 /* Frameworks */,
 				6EDED2761F38B36400ACB9D6 /* Resources */,
+				15EE502765BDB81EDC881897 /* [CP] Embed Pods Frameworks */,
+				4210A05D65B1DC420FA27E0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +339,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15EE502765BDB81EDC881897 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NGM-AXA-SopraSteriaUITests/Pods-NGM-AXA-SopraSteriaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21CF09FE0BACA5C08401B85A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NGM-AXA-SopraSteriaTests/Pods-NGM-AXA-SopraSteriaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4210A05D65B1DC420FA27E0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NGM-AXA-SopraSteriaUITests/Pods-NGM-AXA-SopraSteriaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EA9741D3EB5BD3FA2342E10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NGM-AXA-SopraSteriaTests/Pods-NGM-AXA-SopraSteriaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7450D01B0C5333D4AFBE0162 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		873A0026D20065E4746EE4C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NGM-AXA-SopraSteria/Pods-NGM-AXA-SopraSteria-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E665A07B57C1522AF15ECBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1979BD2FA7E7CB2EE8CC132 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NGM-AXA-SopraSteria/Pods-NGM-AXA-SopraSteria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD4592072EEC5B3370BD816 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6EDED2521F38B36400ACB9D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,6 +484,8 @@
 			files = (
 				6EDED25C1F38B36400ACB9D6 /* ViewController.swift in Sources */,
 				6EDED25A1F38B36400ACB9D6 /* AppDelegate.swift in Sources */,
+				6EDED2921F38F35C00ACB9D6 /* DetailPlayerVC.swift in Sources */,
+				6EDED28B1F38B42100ACB9D6 /* CollectionViewCell.swift in Sources */,
 				6EDED2621F38B36400ACB9D6 /* NGM_AXA_SopraSteria.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +636,7 @@
 		};
 		6EDED2821F38B36400ACB9D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2AAD4B91E85315D059BC25 /* Pods-NGM-AXA-SopraSteria.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WFF35589FB;
@@ -430,6 +650,7 @@
 		};
 		6EDED2831F38B36400ACB9D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17215B592F58CED1CED329D5 /* Pods-NGM-AXA-SopraSteria.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WFF35589FB;
@@ -443,6 +664,7 @@
 		};
 		6EDED2851F38B36400ACB9D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 354708F4CF233D426BA19BC6 /* Pods-NGM-AXA-SopraSteriaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +680,7 @@
 		};
 		6EDED2861F38B36400ACB9D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AECC3EDFFFA0EE956625340D /* Pods-NGM-AXA-SopraSteriaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +696,7 @@
 		};
 		6EDED2881F38B36400ACB9D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E750002DFE9789170A3862 /* Pods-NGM-AXA-SopraSteriaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = WFF35589FB;
@@ -487,6 +711,7 @@
 		};
 		6EDED2891F38B36400ACB9D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C75A7C40317BBA0A2694010 /* Pods-NGM-AXA-SopraSteriaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = WFF35589FB;
@@ -518,6 +743,7 @@
 				6EDED2831F38B36400ACB9D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EDED2841F38B36400ACB9D6 /* Build configuration list for PBXNativeTarget "NGM-AXA-SopraSteriaTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +752,7 @@
 				6EDED2861F38B36400ACB9D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6EDED2871F38B36400ACB9D6 /* Build configuration list for PBXNativeTarget "NGM-AXA-SopraSteriaUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +761,7 @@
 				6EDED2891F38B36400ACB9D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
