@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E6E1002D0AEDC4055A189BA81989F0 /* Pods-NGM-AXA-SopraSteriaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F3C95E84BA22CABF84D0EA51AB80BE /* Pods-NGM-AXA-SopraSteriaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0339ED82E617C5EFC24BDB8E56C822D4 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 779B33D4AA8D36CE69001F64B1C924B6 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06BC0D1A08A976D55DC4E0812D4CF365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		0EC27BC303C0CC99C4422F47C840499B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		15FE5F7BD3527C075C280689E940F322 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDC9F27823E18CB972FB8AFD6B120F6 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F8F0E3A0527C4CB4DE665F6E56E692F /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1296BE4DDEB09F3CF2072C7073D7B3 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D07FFC8BBB1A5D7828E994888C19C22 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E6456237FB03F6CCC42CC65518735B70 /* SVRadialGradientLayer.m */; };
+		506F1DE73F662E49FE22D3D3683D063E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		64D3CDEE9AA66788DAFE9C91CAADD20E /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = C448586FB64ED635E190F6904D743930 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E36B1A85956FBA3B6F1BC1660013046 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6941A9A472630895CED61BF8945A0A86 /* SVProgressHUD-dummy.m */; };
+		7789CF45663600FBC68F6EB715E4C69B /* Pods-NGM-AXA-SopraSteriaUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 408B1A45BFC600F232125D0A02C32730 /* Pods-NGM-AXA-SopraSteriaUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E71518F9A4C2712165D8EFDAB14173 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E71CFC73DB55784D0519F97BA41F995 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		853E11A94FA62A411B4E121C39CF7E1A /* Pods-NGM-AXA-SopraSteriaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC2D7B2E8590F6F5EDB8D5BF3C4F585 /* Pods-NGM-AXA-SopraSteriaTests-dummy.m */; };
+		8DDC662C9B8841E8F480762C70469056 /* Pods-NGM-AXA-SopraSteriaUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4369E27DD2050198DDE36E00ABC1625 /* Pods-NGM-AXA-SopraSteriaUITests-dummy.m */; };
+		904CC40E65BE271AF62E646F4B4CEA4B /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3E5DB554589C543F1B5859BB28A8CC /* SVProgressAnimatedView.m */; };
+		96211CFF75EA179BF18B403AA1911393 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAF517DE80F33E8C6D4730D8C76266A8 /* SVIndefiniteAnimatedView.m */; };
+		A2CCA04E00902A0AA6822FCBD33CB0C3 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = EB951A2AFCBDCFE1B3C8CAA45738F432 /* SVProgressHUD.m */; };
+		E0FA49A728735013848411D87F1C7275 /* Pods-NGM-AXA-SopraSteria-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B47917166935A42AF6D26157D6FC7C58 /* Pods-NGM-AXA-SopraSteria-dummy.m */; };
+		EB76F2177BBFFC44671EC642ABA4C939 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B9DE3366B1C5305DC7E5784E16F95 /* SVProgressHUD.bundle */; };
+		EBDD8E36CD1E61B13E9959E2C851ED3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F9310556BBE996AE628441592FB1181 /* Foundation.framework */; };
+		F6B56B1A71CEC862AC4560EAA813D5AA /* Pods-NGM-AXA-SopraSteria-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE382F6F743E1E4D477B1FB7CBF0056 /* Pods-NGM-AXA-SopraSteria-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F959BF6D36D7CBC16ED6713EAAF41902 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CF13BCB9D36F1319E01CAB18FE2FBA7 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C48BC7C07528E99CD541E6C70AC80D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B4399B7F85DFA10E2108F2C2A835DE;
+			remoteInfo = "Pods-NGM-AXA-SopraSteria";
+		};
+		965D23582F36FD949AA68B823E368A85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88B4399B7F85DFA10E2108F2C2A835DE;
+			remoteInfo = "Pods-NGM-AXA-SopraSteria";
+		};
+		F7B377EF1371472182731D471F6201D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28A85D7F4A9AE1259ABE0919E4AC9A20;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06E9F53D4A77129173C40E4A4CB78AE3 /* Pods-NGM-AXA-SopraSteriaUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NGM-AXA-SopraSteriaUITests-resources.sh"; sourceTree = "<group>"; };
+		0981D40521BBC7ABCE053995CB8AA823 /* Pods-NGM-AXA-SopraSteria.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NGM-AXA-SopraSteria.modulemap"; sourceTree = "<group>"; };
+		0F9310556BBE996AE628441592FB1181 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		13F1780D405E5E55AF019E6238EDF5F5 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		1A2B9DE3366B1C5305DC7E5784E16F95 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		22601EC6379181963791AC9DDE811715 /* Pods-NGM-AXA-SopraSteriaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGM-AXA-SopraSteriaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2806D03449D68759C15D931CE7C8A00B /* Pods-NGM-AXA-SopraSteriaTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NGM-AXA-SopraSteriaTests-resources.sh"; sourceTree = "<group>"; };
+		2A885B2B34C761C1828FCC7FBFDE1A6A /* Pods_NGM_AXA_SopraSteriaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NGM_AXA_SopraSteriaTests.framework; path = "Pods-NGM-AXA-SopraSteriaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE382F6F743E1E4D477B1FB7CBF0056 /* Pods-NGM-AXA-SopraSteria-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NGM-AXA-SopraSteria-umbrella.h"; sourceTree = "<group>"; };
+		2C023B8DFBD8A3076F7ECCDE89AAE2F7 /* Pods-NGM-AXA-SopraSteriaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGM-AXA-SopraSteriaTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CDC9F27823E18CB972FB8AFD6B120F6 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		3743839A549B973039F63B7CF3C6DC5F /* Pods-NGM-AXA-SopraSteriaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGM-AXA-SopraSteriaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		40560A02B6CA11C523460C09676D2165 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		408B1A45BFC600F232125D0A02C32730 /* Pods-NGM-AXA-SopraSteriaUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NGM-AXA-SopraSteriaUITests-umbrella.h"; sourceTree = "<group>"; };
+		53F9B9C7A5FE6D5DEC0B7766FA0F8CA5 /* Pods_NGM_AXA_SopraSteria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NGM_AXA_SopraSteria.framework; path = "Pods-NGM-AXA-SopraSteria.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		567C2EC0ED3A4DACC218670AA80F0B5B /* Pods-NGM-AXA-SopraSteria-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NGM-AXA-SopraSteria-acknowledgements.plist"; sourceTree = "<group>"; };
+		57F3C95E84BA22CABF84D0EA51AB80BE /* Pods-NGM-AXA-SopraSteriaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NGM-AXA-SopraSteriaTests-umbrella.h"; sourceTree = "<group>"; };
+		5B57D5F3A467522895053919A019D386 /* Pods-NGM-AXA-SopraSteriaUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NGM-AXA-SopraSteriaUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6222D37AE87B988095BC86E50BCD7849 /* Pods-NGM-AXA-SopraSteriaUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NGM-AXA-SopraSteriaUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		67A86EB1E3C4E658F4F8B42FB17F3257 /* Pods-NGM-AXA-SopraSteriaUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NGM-AXA-SopraSteriaUITests.modulemap"; sourceTree = "<group>"; };
+		6941A9A472630895CED61BF8945A0A86 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		70EEC96671439244D758FE8277DD1967 /* Pods-NGM-AXA-SopraSteriaUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NGM-AXA-SopraSteriaUITests-frameworks.sh"; sourceTree = "<group>"; };
+		779B33D4AA8D36CE69001F64B1C924B6 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		8ECCAA8ABCE82799F83554E41CAC304F /* Pods-NGM-AXA-SopraSteriaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NGM-AXA-SopraSteriaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		909B93019E044954E31A39403A4939A6 /* Pods-NGM-AXA-SopraSteriaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NGM-AXA-SopraSteriaTests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		952CF1509E881F1A4F94899139365DD3 /* Pods-NGM-AXA-SopraSteriaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NGM-AXA-SopraSteriaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		95C8CC4DB956FA1BFFFABA96BB8BD34C /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
+		9A1296BE4DDEB09F3CF2072C7073D7B3 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		9A4C277659D42049B12E24501BB0E865 /* Pods-NGM-AXA-SopraSteriaTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NGM-AXA-SopraSteriaTests-frameworks.sh"; sourceTree = "<group>"; };
+		9C01EAA114EB60E5777F3CF67E3EA7C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF13BCB9D36F1319E01CAB18FE2FBA7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		9D5B8F8E345B51CC9152B86B6CFCCA21 /* Pods-NGM-AXA-SopraSteria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGM-AXA-SopraSteria.release.xcconfig"; sourceTree = "<group>"; };
+		9E71CFC73DB55784D0519F97BA41F995 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		9F3E5DB554589C543F1B5859BB28A8CC /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		AAF517DE80F33E8C6D4730D8C76266A8 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		ABC2D7B2E8590F6F5EDB8D5BF3C4F585 /* Pods-NGM-AXA-SopraSteriaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NGM-AXA-SopraSteriaTests-dummy.m"; sourceTree = "<group>"; };
+		B0425DF4849AC6126A6D288B6B7BC372 /* Pods-NGM-AXA-SopraSteria-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NGM-AXA-SopraSteria-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1037FFA332E1C17D0E8B3174B079241 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B13BC1D42984B0A6520DCB85E9E469CB /* Pods-NGM-AXA-SopraSteria-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NGM-AXA-SopraSteria-resources.sh"; sourceTree = "<group>"; };
+		B400A1715B955D8BC3B0D016D769653E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B47917166935A42AF6D26157D6FC7C58 /* Pods-NGM-AXA-SopraSteria-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NGM-AXA-SopraSteria-dummy.m"; sourceTree = "<group>"; };
+		C29FD752F808343429494A3E79BBA0C6 /* Pods-NGM-AXA-SopraSteria-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NGM-AXA-SopraSteria-frameworks.sh"; sourceTree = "<group>"; };
+		C4369E27DD2050198DDE36E00ABC1625 /* Pods-NGM-AXA-SopraSteriaUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NGM-AXA-SopraSteriaUITests-dummy.m"; sourceTree = "<group>"; };
+		C448586FB64ED635E190F6904D743930 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		CDC3E95CD714E30A27CF4EEC3898CB04 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		DD0DD2ED3418F51E87A4A1CB5CA1F028 /* Pods-NGM-AXA-SopraSteria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGM-AXA-SopraSteria.debug.xcconfig"; sourceTree = "<group>"; };
+		E53D022418AAE44F8614F85F39C3A30A /* Pods-NGM-AXA-SopraSteriaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NGM-AXA-SopraSteriaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E6456237FB03F6CCC42CC65518735B70 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		E8CFBAF3D0B9373CAEA4AFE10B942E8E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB951A2AFCBDCFE1B3C8CAA45738F432 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		F8751B8918378482025A4B0CDAAB383A /* Pods_NGM_AXA_SopraSteriaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NGM_AXA_SopraSteriaUITests.framework; path = "Pods-NGM-AXA-SopraSteriaUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA5AD05E93540287F775BE6BDF58F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC27BC303C0CC99C4422F47C840499B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94BFCF9B9BDBD7C1030093F965700007 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BC0D1A08A976D55DC4E0812D4CF365 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4830AB97E8954B4734F0191A223F623 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				506F1DE73F662E49FE22D3D3683D063E /* Foundation.framework in Frameworks */,
+				F959BF6D36D7CBC16ED6713EAAF41902 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D83A450824264EEA848B4AAD0385D636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBDD8E36CD1E61B13E9959E2C851ED3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		138B0F5F90EB348D3336B79280627A1F /* Pods-NGM-AXA-SopraSteriaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E8CFBAF3D0B9373CAEA4AFE10B942E8E /* Info.plist */,
+				67A86EB1E3C4E658F4F8B42FB17F3257 /* Pods-NGM-AXA-SopraSteriaUITests.modulemap */,
+				6222D37AE87B988095BC86E50BCD7849 /* Pods-NGM-AXA-SopraSteriaUITests-acknowledgements.markdown */,
+				5B57D5F3A467522895053919A019D386 /* Pods-NGM-AXA-SopraSteriaUITests-acknowledgements.plist */,
+				C4369E27DD2050198DDE36E00ABC1625 /* Pods-NGM-AXA-SopraSteriaUITests-dummy.m */,
+				70EEC96671439244D758FE8277DD1967 /* Pods-NGM-AXA-SopraSteriaUITests-frameworks.sh */,
+				06E9F53D4A77129173C40E4A4CB78AE3 /* Pods-NGM-AXA-SopraSteriaUITests-resources.sh */,
+				408B1A45BFC600F232125D0A02C32730 /* Pods-NGM-AXA-SopraSteriaUITests-umbrella.h */,
+				3743839A549B973039F63B7CF3C6DC5F /* Pods-NGM-AXA-SopraSteriaUITests.debug.xcconfig */,
+				E53D022418AAE44F8614F85F39C3A30A /* Pods-NGM-AXA-SopraSteriaUITests.release.xcconfig */,
+			);
+			name = "Pods-NGM-AXA-SopraSteriaUITests";
+			path = "Target Support Files/Pods-NGM-AXA-SopraSteriaUITests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56933BB70C933E0BF63210DD87D76AD0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56933BB70C933E0BF63210DD87D76AD0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				0F9310556BBE996AE628441592FB1181 /* Foundation.framework */,
+				9CF13BCB9D36F1319E01CAB18FE2FBA7 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5831ECC27984A7B2FA00FEE7EF078CAB /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C448586FB64ED635E190F6904D743930 /* SVIndefiniteAnimatedView.h */,
+				AAF517DE80F33E8C6D4730D8C76266A8 /* SVIndefiniteAnimatedView.m */,
+				9E71CFC73DB55784D0519F97BA41F995 /* SVProgressAnimatedView.h */,
+				9F3E5DB554589C543F1B5859BB28A8CC /* SVProgressAnimatedView.m */,
+				2CDC9F27823E18CB972FB8AFD6B120F6 /* SVProgressHUD.h */,
+				EB951A2AFCBDCFE1B3C8CAA45738F432 /* SVProgressHUD.m */,
+				9A1296BE4DDEB09F3CF2072C7073D7B3 /* SVRadialGradientLayer.h */,
+				E6456237FB03F6CCC42CC65518735B70 /* SVRadialGradientLayer.m */,
+				9E09F6F6417032AB83C07907A8D7E815 /* Resources */,
+				BDC61CEF31816FD6D8B51AE120CBDECB /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		6144C0590EB8B3C3D5FC6368018C6C84 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				704EFD967DA9F31FA94DFC2B9619444F /* Pods-NGM-AXA-SopraSteria */,
+				CDA4B6454E9813B0D4F4570406E2CA16 /* Pods-NGM-AXA-SopraSteriaTests */,
+				138B0F5F90EB348D3336B79280627A1F /* Pods-NGM-AXA-SopraSteriaUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		704EFD967DA9F31FA94DFC2B9619444F /* Pods-NGM-AXA-SopraSteria */ = {
+			isa = PBXGroup;
+			children = (
+				9C01EAA114EB60E5777F3CF67E3EA7C7 /* Info.plist */,
+				0981D40521BBC7ABCE053995CB8AA823 /* Pods-NGM-AXA-SopraSteria.modulemap */,
+				B0425DF4849AC6126A6D288B6B7BC372 /* Pods-NGM-AXA-SopraSteria-acknowledgements.markdown */,
+				567C2EC0ED3A4DACC218670AA80F0B5B /* Pods-NGM-AXA-SopraSteria-acknowledgements.plist */,
+				B47917166935A42AF6D26157D6FC7C58 /* Pods-NGM-AXA-SopraSteria-dummy.m */,
+				C29FD752F808343429494A3E79BBA0C6 /* Pods-NGM-AXA-SopraSteria-frameworks.sh */,
+				B13BC1D42984B0A6520DCB85E9E469CB /* Pods-NGM-AXA-SopraSteria-resources.sh */,
+				2BE382F6F743E1E4D477B1FB7CBF0056 /* Pods-NGM-AXA-SopraSteria-umbrella.h */,
+				DD0DD2ED3418F51E87A4A1CB5CA1F028 /* Pods-NGM-AXA-SopraSteria.debug.xcconfig */,
+				9D5B8F8E345B51CC9152B86B6CFCCA21 /* Pods-NGM-AXA-SopraSteria.release.xcconfig */,
+			);
+			name = "Pods-NGM-AXA-SopraSteria";
+			path = "Target Support Files/Pods-NGM-AXA-SopraSteria";
+			sourceTree = "<group>";
+		};
+		74588D48F629C3D7E6B7E12AB83072D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5831ECC27984A7B2FA00FEE7EF078CAB /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				74588D48F629C3D7E6B7E12AB83072D6 /* Pods */,
+				ABF19FEFD57DC2178F4994944AA81873 /* Products */,
+				6144C0590EB8B3C3D5FC6368018C6C84 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E09F6F6417032AB83C07907A8D7E815 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B9DE3366B1C5305DC7E5784E16F95 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ABF19FEFD57DC2178F4994944AA81873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F9B9C7A5FE6D5DEC0B7766FA0F8CA5 /* Pods_NGM_AXA_SopraSteria.framework */,
+				2A885B2B34C761C1828FCC7FBFDE1A6A /* Pods_NGM_AXA_SopraSteriaTests.framework */,
+				F8751B8918378482025A4B0CDAAB383A /* Pods_NGM_AXA_SopraSteriaUITests.framework */,
+				40560A02B6CA11C523460C09676D2165 /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDC61CEF31816FD6D8B51AE120CBDECB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1037FFA332E1C17D0E8B3174B079241 /* Info.plist */,
+				CDC3E95CD714E30A27CF4EEC3898CB04 /* SVProgressHUD.modulemap */,
+				95C8CC4DB956FA1BFFFABA96BB8BD34C /* SVProgressHUD.xcconfig */,
+				6941A9A472630895CED61BF8945A0A86 /* SVProgressHUD-dummy.m */,
+				13F1780D405E5E55AF019E6238EDF5F5 /* SVProgressHUD-prefix.pch */,
+				779B33D4AA8D36CE69001F64B1C924B6 /* SVProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		CDA4B6454E9813B0D4F4570406E2CA16 /* Pods-NGM-AXA-SopraSteriaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B400A1715B955D8BC3B0D016D769653E /* Info.plist */,
+				909B93019E044954E31A39403A4939A6 /* Pods-NGM-AXA-SopraSteriaTests.modulemap */,
+				8ECCAA8ABCE82799F83554E41CAC304F /* Pods-NGM-AXA-SopraSteriaTests-acknowledgements.markdown */,
+				952CF1509E881F1A4F94899139365DD3 /* Pods-NGM-AXA-SopraSteriaTests-acknowledgements.plist */,
+				ABC2D7B2E8590F6F5EDB8D5BF3C4F585 /* Pods-NGM-AXA-SopraSteriaTests-dummy.m */,
+				9A4C277659D42049B12E24501BB0E865 /* Pods-NGM-AXA-SopraSteriaTests-frameworks.sh */,
+				2806D03449D68759C15D931CE7C8A00B /* Pods-NGM-AXA-SopraSteriaTests-resources.sh */,
+				57F3C95E84BA22CABF84D0EA51AB80BE /* Pods-NGM-AXA-SopraSteriaTests-umbrella.h */,
+				22601EC6379181963791AC9DDE811715 /* Pods-NGM-AXA-SopraSteriaTests.debug.xcconfig */,
+				2C023B8DFBD8A3076F7ECCDE89AAE2F7 /* Pods-NGM-AXA-SopraSteriaTests.release.xcconfig */,
+			);
+			name = "Pods-NGM-AXA-SopraSteriaTests";
+			path = "Target Support Files/Pods-NGM-AXA-SopraSteriaTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		143B916781927628656A0725E829C174 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6B56B1A71CEC862AC4560EAA813D5AA /* Pods-NGM-AXA-SopraSteria-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DF8F2C935B02A2013509B621C995542 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E6E1002D0AEDC4055A189BA81989F0 /* Pods-NGM-AXA-SopraSteriaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4DFB1B0C11918FE5031694460697122 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D3CDEE9AA66788DAFE9C91CAADD20E /* SVIndefiniteAnimatedView.h in Headers */,
+				83E71518F9A4C2712165D8EFDAB14173 /* SVProgressAnimatedView.h in Headers */,
+				0339ED82E617C5EFC24BDB8E56C822D4 /* SVProgressHUD-umbrella.h in Headers */,
+				15FE5F7BD3527C075C280689E940F322 /* SVProgressHUD.h in Headers */,
+				1F8F0E3A0527C4CB4DE665F6E56E692F /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F642855A1155A00AD198D6DA3E3C3C53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7789CF45663600FBC68F6EB715E4C69B /* Pods-NGM-AXA-SopraSteriaUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CA6089E5A13E62C52987D9F048722ED /* Pods-NGM-AXA-SopraSteriaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE00823C06E7FA61D3D7AD9E37D6133C /* Build configuration list for PBXNativeTarget "Pods-NGM-AXA-SopraSteriaTests" */;
+			buildPhases = (
+				F55AAC081A473B47F2C69A24F99F0611 /* Sources */,
+				D83A450824264EEA848B4AAD0385D636 /* Frameworks */,
+				9DF8F2C935B02A2013509B621C995542 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0785517E1BA459C74684498E4F3D3E7A /* PBXTargetDependency */,
+			);
+			name = "Pods-NGM-AXA-SopraSteriaTests";
+			productName = "Pods-NGM-AXA-SopraSteriaTests";
+			productReference = 2A885B2B34C761C1828FCC7FBFDE1A6A /* Pods_NGM_AXA_SopraSteriaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		28A85D7F4A9AE1259ABE0919E4AC9A20 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D71AE6B9AC4B707199ECABD7E860EDA9 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				993F8988EB91BB52A2005370F1864C91 /* Sources */,
+				B4830AB97E8954B4734F0191A223F623 /* Frameworks */,
+				B4DFB1B0C11918FE5031694460697122 /* Headers */,
+				5863C78142478B0619CB907655964B25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = 40560A02B6CA11C523460C09676D2165 /* SVProgressHUD.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51077C1C3DFAE82801933ABE3FDA6EF6 /* Pods-NGM-AXA-SopraSteriaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5309678F95AD722294DC0390C21DCCC /* Build configuration list for PBXNativeTarget "Pods-NGM-AXA-SopraSteriaUITests" */;
+			buildPhases = (
+				02A62035D45477B4F1A60C54AF7B90FD /* Sources */,
+				4AA5AD05E93540287F775BE6BDF58F0A /* Frameworks */,
+				F642855A1155A00AD198D6DA3E3C3C53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1615FC4279F21576351E8EAE70132DE5 /* PBXTargetDependency */,
+			);
+			name = "Pods-NGM-AXA-SopraSteriaUITests";
+			productName = "Pods-NGM-AXA-SopraSteriaUITests";
+			productReference = F8751B8918378482025A4B0CDAAB383A /* Pods_NGM_AXA_SopraSteriaUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		88B4399B7F85DFA10E2108F2C2A835DE /* Pods-NGM-AXA-SopraSteria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B992C562467ABEF7E41B3FB2FC70B817 /* Build configuration list for PBXNativeTarget "Pods-NGM-AXA-SopraSteria" */;
+			buildPhases = (
+				2F9F37D878EE1525A420B2DA6C383B68 /* Sources */,
+				94BFCF9B9BDBD7C1030093F965700007 /* Frameworks */,
+				143B916781927628656A0725E829C174 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				317AAF4161793CC45384C3E4A3CCCA3D /* PBXTargetDependency */,
+			);
+			name = "Pods-NGM-AXA-SopraSteria";
+			productName = "Pods-NGM-AXA-SopraSteria";
+			productReference = 53F9B9C7A5FE6D5DEC0B7766FA0F8CA5 /* Pods_NGM_AXA_SopraSteria.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ABF19FEFD57DC2178F4994944AA81873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88B4399B7F85DFA10E2108F2C2A835DE /* Pods-NGM-AXA-SopraSteria */,
+				0CA6089E5A13E62C52987D9F048722ED /* Pods-NGM-AXA-SopraSteriaTests */,
+				51077C1C3DFAE82801933ABE3FDA6EF6 /* Pods-NGM-AXA-SopraSteriaUITests */,
+				28A85D7F4A9AE1259ABE0919E4AC9A20 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5863C78142478B0619CB907655964B25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB76F2177BBFFC44671EC642ABA4C939 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02A62035D45477B4F1A60C54AF7B90FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DDC662C9B8841E8F480762C70469056 /* Pods-NGM-AXA-SopraSteriaUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F9F37D878EE1525A420B2DA6C383B68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FA49A728735013848411D87F1C7275 /* Pods-NGM-AXA-SopraSteria-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		993F8988EB91BB52A2005370F1864C91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96211CFF75EA179BF18B403AA1911393 /* SVIndefiniteAnimatedView.m in Sources */,
+				904CC40E65BE271AF62E646F4B4CEA4B /* SVProgressAnimatedView.m in Sources */,
+				6E36B1A85956FBA3B6F1BC1660013046 /* SVProgressHUD-dummy.m in Sources */,
+				A2CCA04E00902A0AA6822FCBD33CB0C3 /* SVProgressHUD.m in Sources */,
+				4D07FFC8BBB1A5D7828E994888C19C22 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55AAC081A473B47F2C69A24F99F0611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853E11A94FA62A411B4E121C39CF7E1A /* Pods-NGM-AXA-SopraSteriaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0785517E1BA459C74684498E4F3D3E7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NGM-AXA-SopraSteria";
+			target = 88B4399B7F85DFA10E2108F2C2A835DE /* Pods-NGM-AXA-SopraSteria */;
+			targetProxy = 1C48BC7C07528E99CD541E6C70AC80D3 /* PBXContainerItemProxy */;
+		};
+		1615FC4279F21576351E8EAE70132DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NGM-AXA-SopraSteria";
+			target = 88B4399B7F85DFA10E2108F2C2A835DE /* Pods-NGM-AXA-SopraSteria */;
+			targetProxy = 965D23582F36FD949AA68B823E368A85 /* PBXContainerItemProxy */;
+		};
+		317AAF4161793CC45384C3E4A3CCCA3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 28A85D7F4A9AE1259ABE0919E4AC9A20 /* SVProgressHUD */;
+			targetProxy = F7B377EF1371472182731D471F6201D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13987D189B544E5EC004395FD2E65FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5B8F8E345B51CC9152B86B6CFCCA21 /* Pods-NGM-AXA-SopraSteria.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NGM-AXA-SopraSteria/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NGM-AXA-SopraSteria/Pods-NGM-AXA-SopraSteria.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		386CC23879200829E27AC722519F5615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E53D022418AAE44F8614F85F39C3A30A /* Pods-NGM-AXA-SopraSteriaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NGM-AXA-SopraSteriaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NGM-AXA-SopraSteriaUITests/Pods-NGM-AXA-SopraSteriaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F7DC59EC4B4A59D57B86EC532252BE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C8CC4DB956FA1BFFFABA96BB8BD34C /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4CE6690CF6B1BC19FDC91776DD7D19B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3743839A549B973039F63B7CF3C6DC5F /* Pods-NGM-AXA-SopraSteriaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NGM-AXA-SopraSteriaUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NGM-AXA-SopraSteriaUITests/Pods-NGM-AXA-SopraSteriaUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		693F7797D16FAA06F6DE671CA5CFA324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C023B8DFBD8A3076F7ECCDE89AAE2F7 /* Pods-NGM-AXA-SopraSteriaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NGM-AXA-SopraSteriaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NGM-AXA-SopraSteriaTests/Pods-NGM-AXA-SopraSteriaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D9C40CC53FD5E64B129A503E90B9DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD0DD2ED3418F51E87A4A1CB5CA1F028 /* Pods-NGM-AXA-SopraSteria.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NGM-AXA-SopraSteria/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NGM-AXA-SopraSteria/Pods-NGM-AXA-SopraSteria.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A83261920527FA997E301F97296C388E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C8CC4DB956FA1BFFFABA96BB8BD34C /* SVProgressHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABD1862E322BE1205C2505CB8DBFFEC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D861AF166642252F70BB49F153D99CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22601EC6379181963791AC9DDE811715 /* Pods-NGM-AXA-SopraSteriaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NGM-AXA-SopraSteriaTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NGM-AXA-SopraSteriaTests/Pods-NGM-AXA-SopraSteriaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7A9A9A35645317AC1B1AF6D860B11E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD1862E322BE1205C2505CB8DBFFEC2 /* Debug */,
+				E7A9A9A35645317AC1B1AF6D860B11E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE00823C06E7FA61D3D7AD9E37D6133C /* Build configuration list for PBXNativeTarget "Pods-NGM-AXA-SopraSteriaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D861AF166642252F70BB49F153D99CFA /* Debug */,
+				693F7797D16FAA06F6DE671CA5CFA324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5309678F95AD722294DC0390C21DCCC /* Build configuration list for PBXNativeTarget "Pods-NGM-AXA-SopraSteriaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE6690CF6B1BC19FDC91776DD7D19B1 /* Debug */,
+				386CC23879200829E27AC722519F5615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B992C562467ABEF7E41B3FB2FC70B817 /* Build configuration list for PBXNativeTarget "Pods-NGM-AXA-SopraSteria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9C40CC53FD5E64B129A503E90B9DC5 /* Debug */,
+				13987D189B544E5EC004395FD2E65FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D71AE6B9AC4B707199ECABD7E860EDA9 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7DC59EC4B4A59D57B86EC532252BE7 /* Debug */,
+				A83261920527FA997E301F97296C388E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -12,5 +12,4 @@ class CollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var gnomeNames: UILabel!
     @IBOutlet weak var gnomeThumbnail: UIImageView!
-    
 }

@@ -18,6 +18,7 @@
 		6EDED28B1F38B42100ACB9D6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDED28A1F38B42100ACB9D6 /* CollectionViewCell.swift */; };
 		6EDED2921F38F35C00ACB9D6 /* DetailPlayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDED2911F38F35C00ACB9D6 /* DetailPlayerVC.swift */; };
 		9423615F3C5761B5A2E315AF /* Pods_NGM_AXA_SopraSteria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 534F5A24AEF57B0F0E2C99AE /* Pods_NGM_AXA_SopraSteria.framework */; };
+		BB455B7920E2A466007E299F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB455B7820E2A466007E299F /* Player.swift */; };
 		BBA1685F56968EAE81249A61 /* Pods_NGM_AXA_SopraSteriaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE01A102469AC404B4B297A4 /* Pods_NGM_AXA_SopraSteriaTests.framework */; };
 		DC864CF170FCAC49CF0B08FF /* Pods_NGM_AXA_SopraSteriaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CD79079AB9B73429E57709D /* Pods_NGM_AXA_SopraSteriaUITests.framework */; };
 /* End PBXBuildFile section */
@@ -64,6 +65,7 @@
 		6EDED2911F38F35C00ACB9D6 /* DetailPlayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPlayerVC.swift; sourceTree = "<group>"; };
 		8B2AAD4B91E85315D059BC25 /* Pods-NGM-AXA-SopraSteria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGM-AXA-SopraSteria.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NGM-AXA-SopraSteria/Pods-NGM-AXA-SopraSteria.debug.xcconfig"; sourceTree = "<group>"; };
 		AECC3EDFFFA0EE956625340D /* Pods-NGM-AXA-SopraSteriaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NGM-AXA-SopraSteriaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NGM-AXA-SopraSteriaTests/Pods-NGM-AXA-SopraSteriaTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB455B7820E2A466007E299F /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		FE01A102469AC404B4B297A4 /* Pods_NGM_AXA_SopraSteriaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NGM_AXA_SopraSteriaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				6EDED2591F38B36400ACB9D6 /* AppDelegate.swift */,
+				BB455B7A20E2A5EC007E299F /* Model */,
 				6EDED28F1F38BAA800ACB9D6 /* Views */,
 				6EDED28E1F38BAA000ACB9D6 /* Controller */,
 				6EDED2901F38BABA00ACB9D6 /* Supporting Files */,
@@ -171,7 +174,8 @@
 		6EDED28F1F38BAA800ACB9D6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				6EDED28A1F38B42100ACB9D6 /* CollectionViewCell.swift */,
+				6EDED25D1F38B36400ACB9D6 /* Main.storyboard */,
+				BB455B7B20E2A60A007E299F /* Cell */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -179,13 +183,28 @@
 		6EDED2901F38BABA00ACB9D6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6EDED25D1F38B36400ACB9D6 /* Main.storyboard */,
 				6EDED2631F38B36400ACB9D6 /* Assets.xcassets */,
 				6EDED2651F38B36400ACB9D6 /* LaunchScreen.storyboard */,
 				6EDED2681F38B36400ACB9D6 /* Info.plist */,
-				6EDED2601F38B36400ACB9D6 /* NGM_AXA_SopraSteria.xcdatamodeld */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB455B7A20E2A5EC007E299F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6EDED2601F38B36400ACB9D6 /* NGM_AXA_SopraSteria.xcdatamodeld */,
+				BB455B7820E2A466007E299F /* Player.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BB455B7B20E2A60A007E299F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				6EDED28A1F38B42100ACB9D6 /* CollectionViewCell.swift */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 		C45DD5875CB169DDEFE24DDD /* Frameworks */ = {
@@ -210,7 +229,6 @@
 				6EDED2531F38B36400ACB9D6 /* Frameworks */,
 				6EDED2541F38B36400ACB9D6 /* Resources */,
 				E1979BD2FA7E7CB2EE8CC132 /* [CP] Embed Pods Frameworks */,
-				873A0026D20065E4746EE4C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,8 +247,6 @@
 				6EDED2691F38B36400ACB9D6 /* Sources */,
 				6EDED26A1F38B36400ACB9D6 /* Frameworks */,
 				6EDED26B1F38B36400ACB9D6 /* Resources */,
-				4EA9741D3EB5BD3FA2342E10 /* [CP] Embed Pods Frameworks */,
-				21CF09FE0BACA5C08401B85A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,8 +266,6 @@
 				6EDED2741F38B36400ACB9D6 /* Sources */,
 				6EDED2751F38B36400ACB9D6 /* Frameworks */,
 				6EDED2761F38B36400ACB9D6 /* Resources */,
-				15EE502765BDB81EDC881897 /* [CP] Embed Pods Frameworks */,
-				4210A05D65B1DC420FA27E0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,7 +284,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Nacho MAC";
 				TargetAttributes = {
 					6EDED2551F38B36400ACB9D6 = {
@@ -340,94 +354,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		15EE502765BDB81EDC881897 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NGM-AXA-SopraSteriaUITests/Pods-NGM-AXA-SopraSteriaUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		21CF09FE0BACA5C08401B85A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NGM-AXA-SopraSteriaTests/Pods-NGM-AXA-SopraSteriaTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4210A05D65B1DC420FA27E0D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NGM-AXA-SopraSteriaUITests/Pods-NGM-AXA-SopraSteriaUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4EA9741D3EB5BD3FA2342E10 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NGM-AXA-SopraSteriaTests/Pods-NGM-AXA-SopraSteriaTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		7450D01B0C5333D4AFBE0162 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NGM-AXA-SopraSteriaUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		873A0026D20065E4746EE4C1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NGM-AXA-SopraSteria/Pods-NGM-AXA-SopraSteria-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9E665A07B57C1522AF15ECBF /* [CP] Check Pods Manifest.lock */ = {
@@ -436,13 +378,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NGM-AXA-SopraSteriaTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E1979BD2FA7E7CB2EE8CC132 /* [CP] Embed Pods Frameworks */ = {
@@ -451,9 +396,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NGM-AXA-SopraSteria/Pods-NGM-AXA-SopraSteria-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -466,13 +414,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NGM-AXA-SopraSteria-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -486,6 +437,7 @@
 				6EDED25A1F38B36400ACB9D6 /* AppDelegate.swift in Sources */,
 				6EDED2921F38F35C00ACB9D6 /* DetailPlayerVC.swift in Sources */,
 				6EDED28B1F38B42100ACB9D6 /* CollectionViewCell.swift in Sources */,
+				BB455B7920E2A466007E299F /* Player.swift in Sources */,
 				6EDED2621F38B36400ACB9D6 /* NGM_AXA_SopraSteria.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -550,15 +502,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -600,15 +560,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

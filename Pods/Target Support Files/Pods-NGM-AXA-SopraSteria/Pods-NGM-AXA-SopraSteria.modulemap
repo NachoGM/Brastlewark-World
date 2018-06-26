@@ -1,0 +1,6 @@
+framework module Pods_NGM_AXA_SopraSteria {
+  umbrella header "Pods-NGM-AXA-SopraSteria-umbrella.h"
+
+  export *
+  module * { export * }
+}
